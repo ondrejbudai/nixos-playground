@@ -8,6 +8,7 @@
           type = "gpt";
           partitions = {
             mbr = {
+              priority = 1;
               size = "1M";
               type = "EF02"; # for grub MBR
             };
